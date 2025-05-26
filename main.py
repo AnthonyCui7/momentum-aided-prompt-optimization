@@ -114,7 +114,7 @@ if __name__ == '__main__':
         gpt4 = predictors.BinaryPredictor(config)
 
 
-    optimizer = optimizers.ProTeGi(
+    optimizer = optimizers.MAPO(
         config, evaluator, scorer, args.max_threads, bf_eval)
 
     train_exs = task.get_train_examples()
