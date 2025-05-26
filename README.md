@@ -4,7 +4,7 @@
 
 Prompt optimization is crucial for improving output quality of Large Language Models (LLMs), but many existing methods are inefficient, requiring extensive computation and manual tuning. We propose **M**omentum-**A**ided **P**rompt **O**ptimization (MAPO), which builds on ProTeGi [(Pryzant et al., 2023)](https://arxiv.org/abs/2305.03495) by incorporating positive natural language "gradients" and a momentum-based memory mechanism to refine prompts while avoiding local minima and oscillations. It also employs beam search and an Upper Confidence Bound (UCB) algorithm for balanced candidate expansion and selection. MAPO achieves faster convergence time with fewer API calls and higher performance than ProTeGi, demonstrating it as a robust and scalable solution for automated prompt optimization in LLMs.
 
-# Usage
+## Usage
 
 Quickstart command:
 ```
